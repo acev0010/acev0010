@@ -114,7 +114,7 @@ const Contact = () => {
           </button>
         </form>
         <div data-aos="fade-right">
-          <img src="/images/meerkat.png" />
+          <img src="/images/meerkat.png" alt=""/>
         </div>
       </div>
     </div>
