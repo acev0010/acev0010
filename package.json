@@ -2,7 +2,6 @@
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/acev0010/acev0010.github.io",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@formspree/react": "^2.5.1",
