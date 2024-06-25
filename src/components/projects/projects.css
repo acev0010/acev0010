@@ -1,0 +1,27 @@
+/* styles.css */
+.badge-front-end {
+  background-color: #6c88ae; /* Blue */
+}
+
+.badge-ui-ux {
+  background-color: #1d3557; /* Green */
+}
+
+.badge-motion-graphics {
+  background-color: #fc6471; /* Teal */
+}
+
+.badge-design {
+  background-color: #6e2d94; /* Yellow */
+}
+
+/* projects.css */
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tags-list button {
+  cursor: pointer;
+}

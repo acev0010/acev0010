@@ -1,0 +1,9 @@
+Fade in & out animations
+https://github.com/michalsnik/aos
+
+Style library
+Bootstrap
+Bootstrap Rect
+
+Form
+https://formspree.io/

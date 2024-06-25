@@ -1,0 +1,42 @@
+/* contact.css */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-label {
+  font-weight: bold;
+}
+
+.contact-text {
+  margin-right: 10px;
+}
+
+.copy-icon {
+  cursor: pointer;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.copy-icon:hover {
+  color: #0056b3;
+}
+
+/* contact.css */
+.centered-container {
+  padding: 1.875rem;
+  background-color: var(--container-color);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  max-width: 600px; /* Set maximum width */
+  text-align: center; /* Center text */
+}

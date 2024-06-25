@@ -1,0 +1,42 @@
+.tiny {
+  max-width: 4px;
+  text-align: center;
+}
+
+/* Add this to your CSS */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjusting the existing .skills class */
+.skills {
+  padding: 1.875rem;
+  background-color: var(--container-color);
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  margin: 0 auto; /* Add this line to center the .skills container */
+}
+
+.skill-icon {
+  max-width: 60px; /* Reduce size of icons */
+  max-height: 60px; /* Reduce size of icons */
+  margin-bottom: 5px; /* Less margin for closer spacing */
+}
+
+.skill-name {
+  font-size: 0.9rem; /* Adjust font size to match smaller icons */
+  margin: 0; /* Remove default margin */
+}
+
+@media (min-width: 992px) {
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(
+      8,
+      auto
+    ); /* 8 icons per row on large screens */
+    gap: 10px;
+  }
+}

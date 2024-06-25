@@ -1,0 +1,45 @@
+.timeline {
+  background-color: var(--container-color);
+  padding: 1.875rem;
+  border-radius: var(--border-radius);
+  position: relative;
+  box-shadow: var(--shadow);
+  border-width: 0 !important;
+  border-color: white;
+  border: 0 !important;
+}
+
+.btn-color {
+  background-color: #1d3557;
+  border-color: #1d3557;
+}
+
+.custom-card {
+  border: 0 !important; /* Example: Red border with increased width */
+  border-radius: 15px !important; /* Example: Custom border radius */
+}
+
+.timeline__item {
+  position: relative;
+  padding-left: 3.125rem;
+}
+
+.timeline__item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline__item::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  left: 0.25rem;
+}
+
+.timeline .icon-briefcase,
+.timeline .icon-graduation {
+  position: absolute;
+  left: -0.4375rem;
+  top: 0;
+}
