@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div class="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 my-2 border-top">
         <span className="copyright"> &copy; Isabel Acevedo</span>
 
 
