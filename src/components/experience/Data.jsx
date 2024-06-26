@@ -5,9 +5,10 @@ const Data = [
     year: "2024 - Present",
     title: "Front-end developer @ IRCC ",
     desc: [
-      "Enhanced and streamlined web pages using Adobe Experience Manager, Dreamweaver, HTML, CSS, and JavaScript; boosted page load speed by 40% and increased user engagement by 25%.",
-      " Executed a detailed QA test process, validating website functionality and ensuring compliance with WCAG 2.1 standards; eliminated 100% of validation errors, improving user experience and accessibility for over 200,000 daily visitors",
-      "Managed daily repetitive tasks in a fast-paced environment, collaborating with various branches and cients across Canada.ca with tight deadlines.",
+      "Enhanced and streamlined web pages using Adobe Experience Manager, Dreamweaver, HTML, CSS, and JavaScript;",
+      "Executed a detailed QA test process, validating website functionality and ensuring compliance with WCAG 2.1 standards; eliminated 100% of validation errors, improving user experience and accessibility for over 200,000 daily visitors.",
+      "Completed daily client tasks in a fast-paced environment using Agile and Scrum methodologies to ensure task efficacy.",
+      "Developed strong client relationships, effectively communicated with technical and non-technical staff and management; and demonstrated initiative, and reliability",
     ],
   },
   {

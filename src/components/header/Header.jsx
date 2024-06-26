@@ -12,30 +12,33 @@ const Header = () => {
       >
         <div>
           <h1>
-            Hello, I’m <span style={{ color: "#FC6471" }}>Isabel Acevedo</span>
+            Hello, I’m <span style={{ color: "#d44d58" }}>Isabel Acevedo</span>
           </h1>
           <p>
             I’m a multimedia specialist with experience in UI & UX design,
             Front-end Development, and motion graphics.
           </p>
           <div className="social-icons">
-            <a
-              href="https://github.com/your-github-profile"
-              className="social-github"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-github"></i>
-            </a>
-            <a
-              href="https://linkedin.com/in/your-linkedin-profile"
-              className="social-linkedin"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-linkedin"></i>
-            </a>
-          </div>
+  <a
+    href="https://github.com/acev0010"
+    className="social-github"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="GitHub profile"
+  >
+    <i className="fab fa-github"></i>
+  </a>
+  <a
+    href="https://www.linkedin.com/in/iacev/"
+    className="social-linkedin"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="LinkedIn profile"
+  >
+    <i className="fab fa-linkedin"></i>
+  </a>
+</div>
+
         </div>
         <img
           src="/images/avatar.png"

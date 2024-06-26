@@ -10,6 +10,8 @@ const getBadgeClass = (tag) => {
       return "badge-ui-ux";
     case "#motion-graphics":
       return "badge-motion-graphics";
+      case "#cms":
+      return "badge-cms";
     case "#design":
       return "badge-design";
     default:

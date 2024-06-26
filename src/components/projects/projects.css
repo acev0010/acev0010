@@ -1,18 +1,22 @@
 /* styles.css */
 .badge-front-end {
-  background-color: #6c88ae; /* Blue */
+  background-color: #43608a; 
 }
 
 .badge-ui-ux {
-  background-color: #1d3557; /* Green */
+  background-color: #1d3557; 
 }
 
 .badge-motion-graphics {
-  background-color: #fc6471; /* Teal */
+  background-color: #aa3f48; 
 }
 
 .badge-design {
-  background-color: #6e2d94; /* Yellow */
+  background-color: #6e2d94; 
+}
+
+.badge-cms {
+  background-color: #3c520e; 
 }
 
 /* projects.css */

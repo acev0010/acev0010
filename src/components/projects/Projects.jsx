@@ -36,6 +36,22 @@ const projects = [
       "Designed and created a stop-motion video for Crayola using After Effects.",
   },
   {
+    image: "/images/cms1.PNG",
+    tags: ["#cms", "#front-end"],
+    title: "Shopify Website",
+    link: "https://vinnys-vintage-keyss.myshopify.com/",
+    description:
+      "Created a website for musical keyboards with the use of Shopify and the in-buil language Liquid. Password: cms2022",
+  },
+  {
+    image: "/images/guess-who.PNG",
+    tags: ["#front-end"],
+    title: "Pokemon Guess Who!",
+    link: "https://acev0010.github.io/pkm-guess-who/",
+    description:
+      "Created a fun guessing-the-pokemon starter game inspired by guess who!",
+  },
+  {
     image: "/images/lost-domain.PNG",
     tags: ["#motion-graphics"],
     title: "Lost Domain Promotional Video",
@@ -44,16 +60,25 @@ const projects = [
       "Storyboarded, designed and created a promotional video for the Lost Domain comic on Webtoon.",
   },
   {
+    image: "/images/people-counter.PNG",
+    tags: ["#front-end"],
+    title: "People Counter",
+    link: "https://acev0010.github.io/people-counter/",
+    description:
+      "A simple people counter program that allows you to keep track of your numbers.",
+  },
+  {
     image: "/images/craftworks.PNG",
     tags: ["#motion-graphics"],
     title: "Craftworks Promotional Video",
     link: "https://drive.google.com/file/d/1qgM1_C-6yQu4qVraGGIwl8Kgy23iFnj8/view?usp=sharing",
     description:
-      "Storyboarded, designed and created an advertisement video for Craftworks",
+      "Storyboarded, designed and created an advertisement video for Craftworks.",
   },
+  
 ];
 
-const uniqueTags = ["#front-end", "#ui-ux", "#motion-graphics", "#design"];
+const uniqueTags = ["#front-end", "#ui-ux", "#motion-graphics", "#design", "#cms"];
 
 const Projects = () => {
   const [selectedTags, setSelectedTags] = useState([]);
