@@ -43,7 +43,7 @@ const Contact = () => {
             />
           </div>
           <div className="contact-item">
-            <span className="contact-label">Country:</span>
+            <span className="contact-label">Location:</span>
             <span className="contact-text">ON, Ottawa</span>
           </div>
         </div>
